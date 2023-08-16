@@ -14,7 +14,7 @@ function ContactList({ contacts, onDeleteContact }) {
   );
 }
 
-ContactList.propTypes = {
+ContactList.PropType= {
   contacts: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,
